@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.welcome{
+    background-color: #202020;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+.welcome img{
+    width: 150px;
+}
+.welcome a{
+    color: white;
+    text-decoration: none;
+}
+    .home-banner{
+        padding-top: 1%;
+        margin: 10px;
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: center;
+    }
+    .home-banner img{
+        width: 90%;
+    }
+    .home-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .home-img{
+    width: 90%;
+    /* height: 200px;
+    background: linear-gradient(purple,red);*/
+    color: white;
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+    }
+    .home-button{
+        width: 190px;
+        height: 40px;
+        border-radius: 20px;
+        border-color: white;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        margin-top: -30px;
+        background-color: #43b14b;
+        color: white;
+        font-size: 18px;
+    }
+    .home-button:hover{
+        color: #43b14b;
+        background-color: white;
+        cursor: pointer;
+    }
+@media (max-width: 1100px){
+    .welcome{
+            display: flex;
+            /* width:50%; */
+            padding-top: 1%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.rem;
+        }
+    }
+
+    /* @media (max-width: 680px){
+    .home-banner img{
+            display: flex;
+            width:50%;
+            padding-top: 1%;
+            height: auto;
+            justify-content: center;
+        }
+    } */
+    /* Hire Page */
+    .hire-banner{
+        color: white;
+        padding-top: 1%;
+        margin: 30px;
+        display: flex;
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        position: sticky;
+        background-color: #202020;
+    }
+    .hire-img{
+        width: 90%;
+        height: 150px; 
+        /*background: linear-gradient(purple,red);*/
+        color: white;
+        display: flex;
+        font-size: 25px;
+        text-align: center;
+        line-height: 200px;
+        border-radius: 20px;
+        margin: 20px;
+        }
+        .hire-button{
+            width: 180px;
+            height: 40px;
+            border-radius: 20px;
+            border-color: white;
+            margin-left: 70px;
+            margin-bottom: 50px;
+            margin-top: -30px;
+            background-color: #43b14b;
+            color: white;
+            font-size: 18px;
+        }
+        .hire-button:hover{
+            color: #43b14b;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .list{
+            /* padding-top: 50px; */
+            padding: 50px 500px;
+            /* padding-left: 500px; */
+            font-size: larger;
+        }
+        .list a{
+            color: white;
+            text-decoration: none;
+        }
+        /* footer */
+    .end{
+        display: flex;
+        width: 100%;
+        height: 8%;
+        padding: 10px;
+        background-color: #202020;
+        justify-content: center;
+    }
+    .end-img{
+        width: 30%;
+        padding: 0;
+        margin: 0;
+    }
